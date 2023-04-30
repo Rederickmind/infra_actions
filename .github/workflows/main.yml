@@ -54,7 +54,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: rederickmind 
-          password: Deadright1
+          password: Deadright1!
       - name: Push to Docker Hub
         # Пуш образа в Docker Hub 
         uses: docker/build-push-action@v2 
