@@ -63,6 +63,7 @@ jobs:
           tags: rederickmind/infra_actions:latest
 
   deploy:
+    name: Deploy on Server on Yandex Cloud
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
     steps:
